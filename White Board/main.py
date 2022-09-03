@@ -94,9 +94,9 @@ start_y = 10
 
 def display_pallete():
     id = colors.create_rectangle(
-        (start_x, 10 + 40*1, 40, 40 + 40*1), fill=colors_name[1])
+        (start_x, 10 + 40*1, 40, 40 + 40*1), fill=colors_name[0])
     colors.tag_bind(id, "<Button-1>",
-                    lambda x: show_color(colors_name[1]))
+                    lambda x: show_color(colors_name[0]))
     id = colors.create_rectangle(
         (start_x, 10 + 40*2, 40, 40 + 40*2), fill=colors_name[2])
     colors.tag_bind(id, "<Button-1>",
