@@ -50,6 +50,6 @@ os.chdir(folder_name)
 
 import wget
 for index,src in enumerate(images):
-	save_as = f"cat{index}.jpg"
+	save_as = f"{item}{index}.jpg"
 	wget.download(src,save_as)
 
